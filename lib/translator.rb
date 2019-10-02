@@ -8,7 +8,7 @@ def load_library(filepath)
   new_hash = {}
   english = []
   japanese = []
-  emoticons.each do |key, value|
+  emoticons.each do |emotion, emojis|
     english << value[0]
     japanese << value[1]
     japanese.each do |j_emoji|
