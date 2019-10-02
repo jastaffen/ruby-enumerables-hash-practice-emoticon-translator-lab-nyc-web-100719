@@ -5,7 +5,7 @@ require "yaml"
 
 def load_library(filepath)
   emoticons = YAML.load_file("./lib/emoticons.yml")
-  new_hash = {gets_meaning: {}, gets_emoticon: {}}
+  new_hash = {}
   # english = []
   # japanese = []
   emoticons.each do |key, value|
@@ -14,6 +14,7 @@ def load_library(filepath)
     # english.each do
     if !new_hash[:gets_meaning]
       new_hash[:gets_meaning] = value[1]
+    end
 
   end
   binding.pry
