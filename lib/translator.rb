@@ -14,7 +14,7 @@ def load_library(filepath)
   end
   binding.pry
   japanese.each do |j_emoji|
-    new_hash[:gets_meaning] = {j_emoji => emotion}
+    new_hash[:gets_meaning] = {j_emoji}
   end
   new_hash
 end
