@@ -12,7 +12,7 @@ def load_library(filepath)
     # english << emojis[0]
     # japanese << emojis[1]
     # japanese.each do |j_emoji|
-    new_hash[:gets_meaning] = {emojis[1] => emotion}
+    new_hash[:gets_meaning][emojis[1]] => emotion
   end
   binding.pry
   new_hash
