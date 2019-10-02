@@ -12,7 +12,7 @@ def load_library(filepath)
     english << value[0]
     japanese << value[1]
     japanese.each do |j_emoji|
-      new_hash[:gets_meaning]= {j_emoji[key]}
+      new_hash[:gets_meaning] = j_emoji
     end
 
   end
