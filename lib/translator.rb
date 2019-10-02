@@ -14,6 +14,7 @@ def load_library(filepath)
     japanese.each do |j_emoji|
       if !new_hash[:gets_meaning]
         new_hash[:gets_meaning] = {j_emoji => key}
+      end
     end
 
   end
