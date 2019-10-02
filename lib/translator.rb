@@ -13,7 +13,7 @@ def load_library(filepath)
     # japanese << value[1]
     # english.each do
     if !new_hash[:gets_meaning]
-      new_hash[:gets_meaning] = value[1]
+      new_hash[:gets_meaning] = {value[1] => key}
     end
 
   end
