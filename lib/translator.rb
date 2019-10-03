@@ -11,6 +11,11 @@ def load_library(filepath)
     emojis.each do |emoji|
       emoji_arr << emoji
     end
+    i = 0
+    while i < emoji_arr.length do
+      if emoji_arr[i] % 2 == 0
+        new
+    end
   end
   binding.pry
   new_hash
