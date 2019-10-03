@@ -9,9 +9,9 @@ def load_library(filepath)
   english = []
   japanese = []
   emoticons.each do |emotion, emojis|
-    english = emoji[0]
+    japanese = emoji[0]
   end
-
+  binding.pry
   new_hash
 end
 
