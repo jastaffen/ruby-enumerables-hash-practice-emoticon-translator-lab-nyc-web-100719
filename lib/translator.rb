@@ -16,8 +16,10 @@ end
 
 def get_japanese_emoticon(filepath, emoticon)
   emoticons = load_library(filepath)
-  if new_hash['get_emoticon'][eomjis[0]]
+  if new_hash['get_emoticon'][emojis[0]]
     return emojis[1]
+  else
+    
 end
 
 def get_english_meaning
