@@ -19,7 +19,6 @@ def load_library(filepath)
       else
         new_hash['get_meaning'][emoji_arr[i]] = emotion
       end
-
       i += 1
     end
   end
