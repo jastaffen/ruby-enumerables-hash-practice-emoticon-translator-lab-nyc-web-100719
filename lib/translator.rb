@@ -17,7 +17,7 @@ def load_library(filepath)
         new_hash[:get_meaning][emoji_arr[i]] = emotion
       end
       if emoji_arr[i] % 2 == 0
-        new_hash[:get_emoticon][]
+        new_hash[:get_emoticon][emoji_arr[i]] = emoji_arr[i + 1]
       i += 1
     end
   end
