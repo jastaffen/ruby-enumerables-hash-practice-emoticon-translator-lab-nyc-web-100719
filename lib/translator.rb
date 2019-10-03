@@ -16,8 +16,9 @@ def load_library(filepath)
       #binding.pry
       if (emoji_arr[i] % 2 == 0)
         new_hash['get_emoticon'][emoji_arr[i]] = emoji_arr[i + 1]
-      else 
+      else
         new_hash['get_meaning'][emoji_arr[i]] = emotion
+      end
 
       i += 1
     end
