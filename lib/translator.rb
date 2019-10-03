@@ -6,8 +6,8 @@ require "yaml"
 def load_library(filepath)
   YAML.load_file(filepath)
   new_hash = {}
-  # english = []
-  # japanese = []
+  english = []
+  japanese = []
   emoticons.each do |emotion, emojis|
     japanese = emojis.last
     english = emojis.first
