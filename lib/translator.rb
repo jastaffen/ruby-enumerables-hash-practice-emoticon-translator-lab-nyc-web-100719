@@ -13,8 +13,8 @@ def load_library(filepath)
     end
     i = 0
     while i < emoji_arr.length do
-      if emoji_arr[i] % 2 == 0
-        new
+      if emoji_arr[i] % 2 != 0
+        new_hash[:get_meaning][emoji_arr[i]] = emotion
     end
   end
   binding.pry
