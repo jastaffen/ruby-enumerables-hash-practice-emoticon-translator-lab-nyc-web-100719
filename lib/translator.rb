@@ -16,7 +16,7 @@ end
 
 def get_japanese_emoticon(filepath, emoticon)
   emoticons = load_library(filepath)
-  emoticons.each do |english, japanese|
+  emoticons.each do |key, emojis|
     binding.pry
     if emoticons['get_emoticon']
       return emojis[1]
